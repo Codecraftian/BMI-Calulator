@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:  #d4c03d;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form{
+  background: #000;
+  color: white;
+  min-height: 100px;
+  min-width: 250px;
+  padding: 50px  100px;
+  border-radius: 0.8rem;
+  box-shadow: 10px 5px 20px rgba(19, 13, 81, 0.564);
+}
+
+
+form .heading{
+  position: relative;
+  top: -25px;
+  right: -15px;
+  font-size: 2.5rem ;
+  text-decoration: underline;
+}
+
+
+form .height , .weight {
+  background: #d4c03d;
+  padding: 0.3rem 0.8rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 8px;
+  border-radius: 1.2rem;
+}
+
+
+.height input{
+  border: none;
+  outline: none;
+  width: 75%;
+  padding: 3px;
+  background: transparent;
+  font-size: 1rem;
+}
+
+
+.weight input{
+  border: none;
+  outline: none;
+  width: 75%;
+  padding: 3px;
+  background: transparent;
+  font-size: 1rem;
+}
+
+
+.button {
+  position: relative;
+  top: 5px;
+  right: -26%;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 3px solid #d4c03d;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.result-css{
+  display: grid;
+  place-items: center;
+}
+
+.result , .categories{
+  margin-top: 1.5rem;
+  font-size: 24px;
+
+}
+
+.categories{
+  border: 3px solid #d4c03d;
+  padding: 8px 35px;
+  border-radius: 10px;
+  position: relative; 
+   right: -2%;
+
+}
+
+
